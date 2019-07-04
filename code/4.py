@@ -4,6 +4,6 @@ if(len(n)==1):
     if(n>="A" and n<="Z"):
         print("Alphabet")
     else:
-        print("invalid")
+        print("No")
 else:
-    print("invalid")
+    print("No")
