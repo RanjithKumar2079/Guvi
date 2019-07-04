@@ -1,0 +1,11 @@
+n=int(input())
+re=0
+j=n
+while(n>0):
+    x=n%10
+    re=re+pow(x,3)
+    n=n//10
+if(re==j):
+    print("yes")
+else:
+    print("no")
