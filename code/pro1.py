@@ -4,10 +4,11 @@ t=[]
 for i in range(n):
     j.append(input())
 r=0
-for i in j[0]:
-    if(i==j[1][r]):
+k=min(j)
+for i in k:
+    if(i==j[r][r]):
         t.append(i)
-    elif(i!=j[1][r]):
+    elif(i!=j[r][r]):
         break
     r=r+1
 print(*t,sep="")
